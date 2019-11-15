@@ -1,0 +1,21 @@
+(exercice 3)
+
+VAR x :CHAINE
+
+DEBUT
+	ECRIRE "qu'elle est votre prénom?"
+	LIRE x
+	ECRIRE "bonjour, "x
+FIN
+
+
+(pascal)
+
+var x :string;
+
+BEGIN
+	writeln ('qu elle est votre prenom?');
+	readln (x);
+	writeln ('bonjour, ',x);
+	readln;
+END.
