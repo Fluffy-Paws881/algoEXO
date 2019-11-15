@@ -1,0 +1,24 @@
+(exercice2)*
+
+VAR: x,y:ENTIER
+
+DEBUT:
+ECRIRE "entrez une valeur"
+LIRE x
+y := x * x
+ECRIRE "le carré de "x"est "y
+FIN
+
+
+
+(pascal)
+
+var x,y : integer
+
+BEGIN
+	writln ('entrez un nombre');
+	readln (x);
+	y := x * x;
+	writeln ('le carré de ',x,'est ',y);
+	readln;
+END.
