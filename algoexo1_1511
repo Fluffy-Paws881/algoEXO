@@ -1,0 +1,16 @@
+exercice 1)
+le resultat du programmes est:
+val=231
+double= 462
+
+(pascal)
+
+var val,double :integer;
+
+BEGIN
+clrscr;
+	val := 231;
+	double := val * 2;
+	writeln (val)
+	writeln (double)
+END.
