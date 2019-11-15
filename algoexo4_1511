@@ -1,0 +1,33 @@
+(exercice 4)
+
+VAR ht,nb,tva,ttc :REEL
+
+DEBUT
+	ECRIRE "entrez le prix hors taxe de l'article"
+	LIRE ht
+	ECRIRE "le nombre d'article"
+	LIRE nb
+	ECRIRE "le taux de tva"
+	LIRE tva
+		ttc := nb * (ht + (ht * (tva / 100)))
+	ECRIRE "le prix total ht est de ",ttc
+FIN
+
+
+(pascal)
+
+var ht,nb,tva,ttc : double;
+
+BEGIN
+	writeln ('entrez le prix hors taxe de l'article');
+	readln (ht);
+	writeln ('le nombre d'article');
+	readln (nb);
+	writeln ('le taux de tva');
+	readln (tva);
+		ttc:= ht *(ht + (ht * (tva * 0,01)));
+	writeln ('le prix total ht est de ',ttc);
+	readln;
+END.
+
+
